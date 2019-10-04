@@ -34,6 +34,7 @@ class Solution {
         for (int i = maxindex + 1; i < nums.length; i++) {
             right[i] = nums[i];
         }
+        //this is modified
         node.right = constructMaximumBinaryTree(right);
         return node;
     }
